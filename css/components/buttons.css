@@ -1,0 +1,13 @@
+.btn-banner {
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-banner:hover {
+  color: rgb(140, 140, 140);
+  background: white;
+  transition: 0.3s;
+}

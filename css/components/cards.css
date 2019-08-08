@@ -1,0 +1,142 @@
+.banner {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 30px;
+  background-size: cover;
+}
+
+.banner h1 {
+  margin-bottom: 4px;
+}
+
+.banner p {
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  align-items: inline;
+  justify-content: space-around;
+}
+
+.card {
+  height: 342px;
+  width: 540px;
+  background: white;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+  height: 350px;
+  width: 460px;
+  background: white;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+  }
+  .container img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-info h3 {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+  .card-info p {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .card {
+  height: 350px;
+  width: 340px;
+  background: white;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+  }
+  .container img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-info h3 {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+  .card-info p {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+  height: 350px;
+  width: 220px;
+  background: white;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+  }
+  .container img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-info h3 {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+  .card-info p {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+}
+
+.card img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-info h3 {
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.card-info p {
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
